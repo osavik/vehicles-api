@@ -20,7 +20,7 @@ public class PricingService {
     private static final Map<Long, Price> PRICES = LongStream
             .range(1, 20)
             .mapToObj(i -> new Price("USD", randomPrice(), i))
-            .collect(Collectors.toMap(Price::getVehicleId, p -> p));
+            .collect(Collectors.toMap(Price::getVehicleid, p -> p));
 
     /**
      * If a valid vehicle ID, gets the price of the vehicle from the stored array.

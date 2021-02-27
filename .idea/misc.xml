@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/boogle-maps/pom.xml" />
         <option value="$PROJECT_DIR$/vehicles-api/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/pricing-service/pom.xml" />
       </list>
     </option>
