@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e014dbe-fceb-405f-a678-6f356f138d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,12 +136,20 @@
       <option name="project" value="LOCAL" />
       <updated>1614636555851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add swagger documentation">
+      <created>1614718394677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614718394677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish CarController &amp; CarService" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish CarController &amp; CarService" />
+    <MESSAGE value="add swagger documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add swagger documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="46" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614634810518">
@@ -165,30 +157,30 @@
     </state>
     <state x="1440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614448685980" />
     <state x="46" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/46.23.1394.877@46.23.1394.877" timestamp="1614634810518" />
-    <state x="263" y="37" key="CommitChangelistDialog2" timestamp="1614636555653">
+    <state x="263" y="37" key="CommitChangelistDialog2" timestamp="1614718394542">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
-    <state x="263" y="37" key="CommitChangelistDialog2/46.23.1394.877@46.23.1394.877" timestamp="1614636555653" />
-    <state width="1289" height="279" key="GridCell.Tab.0.bottom" timestamp="1614717801193">
+    <state x="263" y="37" key="CommitChangelistDialog2/46.23.1394.877@46.23.1394.877" timestamp="1614718394542" />
+    <state width="1289" height="279" key="GridCell.Tab.0.bottom" timestamp="1614718173084">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.bottom/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1614717801193" />
-    <state width="1289" height="279" key="GridCell.Tab.0.center" timestamp="1614717801192">
+    <state width="1289" height="279" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1614718173084" />
+    <state width="1289" height="279" key="GridCell.Tab.0.center" timestamp="1614718173082">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.center/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1614717801192" />
-    <state width="1289" height="279" key="GridCell.Tab.0.left" timestamp="1614717801192">
+    <state width="1289" height="279" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1614718173082" />
+    <state width="1289" height="279" key="GridCell.Tab.0.left" timestamp="1614718173082">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.left/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945197" />
-    <state width="1289" height="279" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1614717801192" />
-    <state width="1289" height="279" key="GridCell.Tab.0.right" timestamp="1614717801193">
+    <state width="1289" height="279" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1614718173082" />
+    <state width="1289" height="279" key="GridCell.Tab.0.right" timestamp="1614718173083">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.right/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1614717801193" />
+    <state width="1289" height="279" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1614718173083" />
     <state width="1289" height="286" key="GridCell.Tab.1.bottom" timestamp="1614633325382">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
