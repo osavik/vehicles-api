@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e014dbe-fceb-405f-a678-6f356f138d4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/PriceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/PriceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.VehiclesApiApplication">
+  <component name="RunManager" selected="JUnit.PriceServiceIntegrationTest">
     <configuration name="BoogleMapsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udacity.boogle.maps.BoogleMapsApplication" />
       <module name="boogle-maps" />
@@ -100,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceServiceIntegrationTest.getPriceById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pricing-service" />
       <extension name="coverage">
         <pattern>
@@ -110,19 +121,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.udacity.pricing" />
       <option name="MAIN_CLASS_NAME" value="com.udacity.pricing.PriceServiceIntegrationTest" />
-      <option name="METHOD_NAME" value="getPriceById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PriceServiceIntegrationTest" />
         <item itemvalue="Application.VehiclesApiApplication" />
-        <item itemvalue="Application.BoogleMapsApplication" />
         <item itemvalue="Application.PricingServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="JUnit.PriceServiceIntegrationTest.getPriceById" />
+        <item itemvalue="Application.BoogleMapsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1614376881777</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish CarController &amp; CarService">
+      <created>1614636555851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614636555851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish CarController &amp; CarService" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish CarController &amp; CarService" />
   </component>
   <component name="WindowStateProjectService">
     <state x="46" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614634810518">
@@ -143,26 +165,30 @@
     </state>
     <state x="1440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614448685980" />
     <state x="46" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/46.23.1394.877@46.23.1394.877" timestamp="1614634810518" />
-    <state width="1289" height="279" key="GridCell.Tab.0.bottom" timestamp="1614636034991">
+    <state x="263" y="37" key="CommitChangelistDialog2" timestamp="1614636555653">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="263" y="37" key="CommitChangelistDialog2/46.23.1394.877@46.23.1394.877" timestamp="1614636555653" />
+    <state width="1289" height="279" key="GridCell.Tab.0.bottom" timestamp="1614717801193">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.bottom/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1614636034991" />
-    <state width="1289" height="279" key="GridCell.Tab.0.center" timestamp="1614636034991">
+    <state width="1289" height="279" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1614717801193" />
+    <state width="1289" height="279" key="GridCell.Tab.0.center" timestamp="1614717801192">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.center/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1614636034991" />
-    <state width="1289" height="279" key="GridCell.Tab.0.left" timestamp="1614636034990">
+    <state width="1289" height="279" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1614717801192" />
+    <state width="1289" height="279" key="GridCell.Tab.0.left" timestamp="1614717801192">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.left/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945197" />
-    <state width="1289" height="279" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1614636034990" />
-    <state width="1289" height="279" key="GridCell.Tab.0.right" timestamp="1614636034991">
+    <state width="1289" height="279" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1614717801192" />
+    <state width="1289" height="279" key="GridCell.Tab.0.right" timestamp="1614717801193">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="326" key="GridCell.Tab.0.right/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614452945198" />
-    <state width="1289" height="279" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1614636034991" />
+    <state width="1289" height="279" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1614717801193" />
     <state width="1289" height="286" key="GridCell.Tab.1.bottom" timestamp="1614633325382">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
@@ -179,10 +205,19 @@
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1289" height="286" key="GridCell.Tab.1.right/46.23.1394.877@46.23.1394.877" timestamp="1614633325382" />
+    <state x="351" y="188" key="Vcs.Push.Dialog.v2" timestamp="1614636557813">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="351" y="188" key="Vcs.Push.Dialog.v2/46.23.1394.877@46.23.1394.877" timestamp="1614636557813" />
     <state x="231" y="87" width="967" height="679" key="dock-window-1" timestamp="1614453794890">
       <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state x="231" y="87" width="967" height="679" key="dock-window-1/46.23.1394.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1614378325629" />
     <state x="231" y="87" width="967" height="679" key="dock-window-1/46.23.1394.877@46.23.1394.877" timestamp="1614453794890" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pricing_service$CarControllerTest.ic" NAME="CarControllerTest Coverage Results" MODIFIED="1614717248077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.udacity.vehicles.api.*</FILTER>
+    </SUITE>
   </component>
 </project>
