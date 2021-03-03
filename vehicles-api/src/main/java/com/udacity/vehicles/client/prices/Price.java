@@ -1,40 +1,20 @@
 package com.udacity.vehicles.client.prices;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.math.BigDecimal;
 
 /**
  * Represents the price of a given vehicle, including currency.
  */
+@Getter
+@Setter
+@NoArgsConstructor
 public class Price {
 
     private String currency;
     private BigDecimal price;
     private Long vehicleid;
-
-    public Price() {
-    }
-
-    public String getCurrency() {
-        return currency;
-    }
-
-    public void setCurrency(String currency) {
-        this.currency = currency;
-    }
-
-    public BigDecimal getPrice() {
-        return price;
-    }
-
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
-
-    public Long getVehicleid() {
-        return vehicleid;
-    }
-
-    public void setVehicleid(Long vehicleid) {
-        this.vehicleid = vehicleid;
-    }
 }
