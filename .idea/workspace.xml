@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e014dbe-fceb-405f-a678-6f356f138d4e" name="Default Changelist" comment="add tests for CarControllerTest class">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing-service/src/main/java/com/udacity/pricing/api/PricingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing-service/src/main/java/com/udacity/pricing/service/PriceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing-service/src/main/java/com/udacity/pricing/service/PricingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/maps/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/maps/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/car/Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/car/Details.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/manufacturer/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/domain/manufacturer/Manufacturer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +156,38 @@
       <option name="project" value="LOCAL" />
       <updated>1614718418859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove pricing controller and pricing service; update projects settings">
+      <created>1614805229970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614805229970</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add lombok library">
+      <created>1614805362579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614805362579</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add test case for update car">
+      <created>1614805386825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614805386825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish CarController &amp; CarService" />
     <MESSAGE value="add swagger documentation" />
     <MESSAGE value="add tests for CarControllerTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests for CarControllerTest class" />
+    <MESSAGE value="remove pricing controller and pricing service; update projects settings" />
+    <MESSAGE value="add lombok library" />
+    <MESSAGE value="add test case for update car" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test case for update car" />
   </component>
   <component name="WindowStateProjectService">
     <state x="238" y="43" key="#Project_Structure" timestamp="1614803739805">
@@ -261,7 +271,7 @@
     <state x="231" y="87" width="967" height="679" key="dock-window-1/46.23.1394.877@46.23.1394.877" timestamp="1614453794890" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pricing_service$CarControllerTest.ic" NAME="CarControllerTest Coverage Results" MODIFIED="1614717248077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pricing_service$CarControllerTest.ic" NAME="CarControllerTest Coverage Results" MODIFIED="1614805083313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.udacity.vehicles.api.*</FILTER>
     </SUITE>
   </component>
